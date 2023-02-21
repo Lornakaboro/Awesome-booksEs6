@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+        <nav class="nav-bar">
+                <a class="logo" href="#">Awesome Books</a>
+            <ul class="nav-links">               
+                <li><a class="last-item lists" href="#">List </a></li>
+                <li><a class="last-item add-new" href="#">Add New</a></li>
+                <li ><a class="contacts" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <h2 class="main-title main-title-hidden">All awesome Books</h2>
+        <div class="date"></div>
+        <div class="books" id="books">
+        <!-- .section created dynamically-->
+        </div>
+
+        <div class="form-container">
+            <h2 class="main-title">Add a new book</h2>
+            <form class="my-form" id="my-form">
+                    <input type="text" id="title" placeholder="Title" name="title" required><br><br>
+                    <input type="text" id="author" placeholder="Author" name="author" required><br><br>
+                    <button type="submit" id="addButton">Add</button>
+            </form>
+        </div>
+
+        <div class="contact-info  contact-hide" id="contact-info">
+            <h2 class="main-title">Contact Information</h2>
+            <div class="contact-details">
+                <p class="contact-description">Do you have any question or you just want to say "Hello"?, <br>
+                    You can reach out to us!</p>
+                <ul class="contact-info">
+                    <li class="contact-item">Our e-mail@mail.com</li>
+                    <li class="contact-item">Our phone number: 0043586534422</li>
+                    <li class="contact-item"> Our address: Streetname 22,84503 City, Country</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="copyright"> Copyright ...</p>
+        </footer>
+        <script src="./index.js" type="module"></script>
+    
+</body>
+</html>

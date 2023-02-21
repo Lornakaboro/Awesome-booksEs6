@@ -1,8 +1,8 @@
 import navSection from './modules/navigation.js';
-import displaybooks from './modules/displaybooks.js';
+import displaybooks from './modules/displayBooks.js';
 import bookData from './modules/bookClass.js';
 import { DateTime } from './modules/luxon.js';
-import { addBook, getBookFromLocalStorage } from './modules/localstorage.js';
+import { addBook, getBookFromLocalStorage } from './modules/localStorage.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   navSection();

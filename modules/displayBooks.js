@@ -1,5 +1,5 @@
 import bookData from './bookClass.js';
-import { addBook } from './localstorage.js';
+import { addBook } from './localStorage.js';
 
 const displaybooks = () => {
   const addedBooks = document.getElementById('books');
